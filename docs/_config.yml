@@ -1,0 +1,44 @@
+title: HL7 TCP to HTTPS Bridge
+description: Open-source HL7 MLLP TCP listener for healthcare integration. Bridge legacy HL7 systems with modern HTTPS APIs. Perfect for Epic, Cerner, and hospital system integration.
+theme: minima
+
+# SEO settings
+url: "https://vsaturnino.github.io"
+baseurl: "/tcphl7lisenter"
+
+# Social and SEO
+twitter:
+  username: vsaturnino
+  card: summary
+
+social:
+  name: Vincent Saturnino
+  links:
+    - https://github.com/vsaturnino
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# SEO plugin
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Navigation
+header_pages:
+  - index.md
+  - HEALTHCARE-INTEGRATION-GUIDE.md
+  - KEYWORDS.md
+
+# SEO optimization
+seo:
+  type: WebSite
+  name: HL7 TCP to HTTPS Bridge
+  headline: Healthcare Integration Service
+  description: Open-source HL7 MLLP TCP listener that bridges legacy healthcare systems with modern HTTPS APIs
+  image: /assets/images/hl7-bridge-logo.png
+  author: Vincent Saturnino
+  publisher: Vincent Saturnino
+  datePublished: 2024-01-01
+  dateModified: 2024-10-11
