@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7forwardTCPtoHTTPS", "HL7forwardTCPtoHTTPS.csproj", "{0D8F1ED8-1988-4777-AB6F-4F2FE20C803C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupHL7forwardTCPtoHTTPS", "..\SetupHL7forwardTCPtoHTTPS\SetupHL7forwardTCPtoHTTPS.vdproj", "{79DED071-0CD7-4C04-8F7F-CAA82D9F1BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8F1ED8-1988-4777-AB6F-4F2FE20C803C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8F1ED8-1988-4777-AB6F-4F2FE20C803C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8F1ED8-1988-4777-AB6F-4F2FE20C803C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DED071-0CD7-4C04-8F7F-CAA82D9F1BA4}.Debug|Any CPU.ActiveCfg = Debug
+		{79DED071-0CD7-4C04-8F7F-CAA82D9F1BA4}.Release|Any CPU.ActiveCfg = Release
+		{79DED071-0CD7-4C04-8F7F-CAA82D9F1BA4}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D818A16A-170A-4563-AD3D-DC50ADB2BFB2}
+	EndGlobalSection
+EndGlobal

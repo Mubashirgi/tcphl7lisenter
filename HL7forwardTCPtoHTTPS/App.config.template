@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2"/>
+    </startup>
+    <appSettings>
+      <!-- IP address to listen on for incoming HL7 messages -->
+      <add key="ReceiveToIP" value="127.0.0.1"/> 
+      
+      <!-- TCP port to listen on for incoming HL7 messages -->
+      <add key="ReceiveToPort" value="7777"/> 
+      
+      <!-- HTTPS endpoint URL where HL7 messages will be forwarded -->
+      <!-- Example: https://your-server.com/api/hl7 -->
+      <add key="ForwardToHost" value="https://your-endpoint.example.com/api/hl7"/> 
+      
+      <!-- Username for HTTP Basic Authentication (if required by your endpoint) -->
+      <add key="ForwardToUser" value="your-username"/> 
+      
+      <!-- Password for HTTP Basic Authentication (if required by your endpoint) -->
+      <add key="ForwardToPassword" value="your-password"/> 
+    </appSettings>
+</configuration>
